@@ -43,6 +43,7 @@
 <div class="container">
   <% if notice %>
     <p class="alert alert-success"><%= notice %></p>
+    <%= image_tag current_user.gravatar_url %>
   <% end %>
   <% if alert %>
     <p class="alert alert-danger"><%= alert %></p>
